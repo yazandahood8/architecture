@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    card_view:cardElevation="4dp"
+    card_view:cardCornerRadius="8dp"
+    card_view:cardBackgroundColor="#FFFFFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Project Title -->
+        <TextView
+            android:id="@+id/text_view_project_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Project Name"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#333333" />
+
+        <!-- Project Description -->
+        <TextView
+            android:id="@+id/text_view_project_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Project Description"
+            android:textSize="14sp"
+            android:textColor="#666666"
+            android:paddingTop="4dp"
+            android:maxLines="2"
+            android:ellipsize="end" />
+
+        <!-- Horizontal divider line -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#CCCCCC"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Location and Completion Date Row -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <!-- Project Location -->
+            <TextView
+                android:id="@+id/text_view_project_location"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Location: New York, USA"
+                android:textSize="14sp"
+                android:textColor="#444444" />
+
+            <!-- Project Completion Date -->
+            <TextView
+                android:id="@+id/text_view_project_completion_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2025"
+                android:textSize="14sp"
+                android:textColor="#888888" />
+        </LinearLayout>
+        <Button
+            android:id="@+id/button_view_details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginTop="8dp"
+            android:text="View Details"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="@color/purple_500" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

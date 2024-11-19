@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Title text style for primary headings -->
+    <style name="TitleText">
+        <item name="android:textSize">@dimen/title_text_size</item>
+        <item name="android:textColor">@color/primary_text</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Subtitle text style for secondary headings -->
+    <style name="SubtitleText">
+        <item name="android:textSize">@dimen/subtitle_text_size</item>
+        <item name="android:textColor">@color/primary_text</item>
+    </style>
+
+    <!-- Body text style for regular content -->
+    <style name="BodyText">
+        <item name="android:textSize">@dimen/body_text_size</item>
+        <item name="android:textColor">@color/secondary_text</item>
+    </style>
+
+
+    <style name="AppTheme.CustomMenuTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Set primary and accent colors to define general look -->
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryVariant">@color/primaryDarkColor</item>
+        <item name="colorSecondary">@color/accentColor</item>
+
+        <!-- Customize menu icon tint (or set to `null` to use original icon colors) -->
+        <item name="bottomNavigationStyle">@style/BottomNavigationViewStyle</item>
+    </style>
+
+    <!-- BottomNavigationView Style for Icon Colors -->
+    <style name="BottomNavigationViewStyle" parent="Widget.MaterialComponents.BottomNavigationView">
+        <item name="itemTextColor">@color/secondary_text</item>
+    </style>
+</resources>

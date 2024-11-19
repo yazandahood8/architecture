@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="12dp">
+
+    <!-- Profile Image -->
+    <ImageView
+        android:id="@+id/image_view_profile"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_marginEnd="12dp"
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/profile"
+    android:scaleType="centerCrop"
+    android:background="?attr/selectableItemBackground"
+    android:contentDescription="Profile Image" />
+
+    <!-- Container for Name and Role -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center_vertical">
+
+        <!-- Name Text -->
+        <TextView
+            android:id="@+id/text_view_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Team Member Name"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black" />
+
+        <!-- Role Text -->
+        <TextView
+            android:id="@+id/text_view_role"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Role: Developer"
+            android:textSize="14sp"
+            android:textColor="@android:color/darker_gray"
+            android:layout_marginTop="4dp" />
+    </LinearLayout>
+</LinearLayout>

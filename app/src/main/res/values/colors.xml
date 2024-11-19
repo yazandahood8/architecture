@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="purple_500">#a46ede</color>
+    <color name="primary_text">#333333</color> <!-- Dark gray for primary text -->
+    <color name="secondary_text">#666666</color> <!-- Medium gray for secondary text -->
+    <color name="accent">#6200EE</color> <!-- Purple for accents -->
+    <color name="divider">#E0E0E0</color> <!-- Light gray for dividers -->
+    <color name="background_light">#FFFFFF</color> <!-- Light background for cards -->
+
+    <!-- Primary and Secondary Colors -->
+    <color name="primaryColor">#6200EE</color> <!-- A deep purple for primary elements -->
+    <color name="primaryDarkColor">#3700B3</color> <!-- Darker shade of primary color -->
+    <color name="accentColor">#03DAC5</color> <!-- Teal accent color for contrast -->
+    <color name="primaryLightColor">#BB86FC</color> <!-- Light version of primary color -->
+
+    <!-- Text Colors -->
+    <color name="primaryText">#212121</color> <!-- Dark gray for primary text -->
+    <color name="secondaryText">#757575</color> <!-- Medium gray for secondary text -->
+    <color name="hintText">#9E9E9E</color> <!-- Light gray for hint text in input fields -->
+
+    <!-- Background and Divider Colors -->
+    <color name="backgroundColor">#FFFFFF</color> <!-- White background color for light mode -->
+    <color name="dividerColor">#E0E0E0</color> <!-- Light gray divider color for separating sections -->
+
+    <!-- Icon Colors -->
+    <color name="iconColorActive">#6200EE</color> <!-- Color for active icons (matches primary color) -->
+    <color name="iconColorInactive">#757575</color> <!-- Gray color for inactive icons -->
+
+    <!-- Additional Colors -->
+    <color name="errorColor">#B00020</color> <!-- Red for error messages and alerts -->
+    <color name="successColor">#388E3C</color> <!-- Green for success notifications -->
+    <color name="warningColor">#FBC02D</color> <!-- Yellow for warnings or highlights -->
+</resources>

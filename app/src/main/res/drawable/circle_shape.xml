@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- res/drawable/circle_shape.xml -->
+    <shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="oval">
+        <solid android:color="@color/background_light" /> <!-- Background color of the circle -->
+        <size android:width="64dp" android:height="64dp" /> <!-- Set default size -->
+        <stroke android:width="2dp" android:color="@color/primaryColor" /> <!-- Optional border around the circle -->
+    </shape>
+
+</selector>

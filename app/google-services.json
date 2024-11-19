@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "558999687968",
+    "project_id": "architecture-c592c",
+    "storage_bucket": "architecture-c592c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:558999687968:android:4642a916d50c77e143fd45",
+        "android_client_info": {
+          "package_name": "com.example.architecture"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD--yJXS1mzHvaiTjcZQnf1wP-iwABzbI4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
