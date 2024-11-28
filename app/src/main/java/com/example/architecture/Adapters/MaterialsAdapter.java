@@ -20,7 +20,6 @@ public class MaterialsAdapter extends RecyclerView.Adapter<MaterialsAdapter.Mate
     }
 
     @NonNull
-    @Override
     public MaterialViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.material_item, parent, false);
         return new MaterialViewHolder(view);

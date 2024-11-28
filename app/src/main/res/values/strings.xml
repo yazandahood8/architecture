@@ -25,55 +25,50 @@
     </string>
 
 
-
-
-
-
-
-        <string-array name="country_list">
-            <item>All</item>
-            <item>USA</item>
-            <item>Canada</item>
-            <item>Germany</item>
-            <item>Australia</item>
-            <item>Brazil</item>
-            <item>China</item>
-            <item>France</item>
-            <item>India</item>
-            <item>Italy</item>
-            <item>Japan</item>
-            <item>Mexico</item>
-            <item>Netherlands</item>
-            <item>Russia</item>
-            <item>South Africa</item>
-            <item>South Korea</item>
-            <item>Spain</item>
-            <item>Sweden</item>
-            <item>Switzerland</item>
-            <item>United Kingdom</item>
-            <item>Argentina</item>
-            <item>Belgium</item>
-            <item>Denmark</item>
-            <item>Egypt</item>
-            <item>Finland</item>
-            <item>Greece</item>
-            <item>Indonesia</item>
-            <item>Ireland</item>
-            <item>Israel</item>
-            <item>Malaysia</item>
-            <item>New Zealand</item>
-            <item>Norway</item>
-            <item>Pakistan</item>
-            <item>Philippines</item>
-            <item>Poland</item>
-            <item>Portugal</item>
-            <item>Saudi Arabia</item>
-            <item>Singapore</item>
-            <item>Thailand</item>
-            <item>Turkey</item>
-            <item>United Arab Emirates</item>
-            <item>Vietnam</item>
-        </string-array>
+    <string-array name="country_list">
+        <item>All</item>
+        <item>USA</item>
+        <item>Canada</item>
+        <item>Germany</item>
+        <item>Australia</item>
+        <item>Brazil</item>
+        <item>China</item>
+        <item>France</item>
+        <item>India</item>
+        <item>Italy</item>
+        <item>Japan</item>
+        <item>Mexico</item>
+        <item>Netherlands</item>
+        <item>Russia</item>
+        <item>South Africa</item>
+        <item>South Korea</item>
+        <item>Spain</item>
+        <item>Sweden</item>
+        <item>Switzerland</item>
+        <item>United Kingdom</item>
+        <item>Argentina</item>
+        <item>Belgium</item>
+        <item>Denmark</item>
+        <item>Egypt</item>
+        <item>Finland</item>
+        <item>Greece</item>
+        <item>Indonesia</item>
+        <item>Ireland</item>
+        <item>Israel</item>
+        <item>Malaysia</item>
+        <item>New Zealand</item>
+        <item>Norway</item>
+        <item>Pakistan</item>
+        <item>Philippines</item>
+        <item>Poland</item>
+        <item>Portugal</item>
+        <item>Saudi Arabia</item>
+        <item>Singapore</item>
+        <item>Thailand</item>
+        <item>Turkey</item>
+        <item>United Arab Emirates</item>
+        <item>Vietnam</item>
+    </string-array>
 
 
 </resources>

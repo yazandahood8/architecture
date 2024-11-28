@@ -2,9 +2,11 @@ package com.example.architecture;
 
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
 import android.widget.ImageView;
+import android.widget.VideoView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -22,15 +24,18 @@ public class SplashScreenActivity extends AppCompatActivity {
         // Delay to show the splash screen for a few seconds
         new Handler().postDelayed(() -> {
             // After the delay, navigate to the Main Activity
-            Intent intent = new Intent(SplashScreenActivity.this, LoginActivity.class);
+            Intent intent = new Intent(SplashScreenActivity.this, InfoActivity.class);
             startActivity(intent);
             finish(); // Close Splash Screen Activity
         }, SPLASH_DURATION);
 
-        ImageView gifBackground = findViewById(R.id.backgroundGif);
-        Glide.with(this)
-                .asGif()
-                .load(R.drawable.giphy) // Replace with your GIF drawable
-                .into(gifBackground);
+        VideoView videoView = findViewById(R.id.videoView);
+
+        // Set the path to the video file
+        Uri videoUri = Uri.parse("android.resource://" + getPackageName() + "/" + R.raw.v);
+        videoView.setVideoURI(videoUri);
+
+        // Start playing the video
+        videoView.start();
     }
 }

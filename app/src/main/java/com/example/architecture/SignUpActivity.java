@@ -17,10 +17,9 @@ import com.google.firebase.database.FirebaseDatabase;
 
 public class SignUpActivity extends AppCompatActivity {
 
-    private EditText editTextName, editTextPhone, editTextEmail, editTextPassword, editTextConfirmPassword;
-    private Button btnSignUp;
-    private TextView textLogin;
-    private FirebaseAuth mAuth;
+    private EditText editTextName, editTextPhone, editTextEmail, editTextPassword;
+    private TextView btnSignUp;
+   private FirebaseAuth mAuth;
     private DatabaseReference mDatabase;
 
     @Override
@@ -37,15 +36,12 @@ public class SignUpActivity extends AppCompatActivity {
         editTextPhone = findViewById(R.id.editTextPhone);
         editTextEmail = findViewById(R.id.editTextEmail);
         editTextPassword = findViewById(R.id.editTextPassword);
-        editTextConfirmPassword = findViewById(R.id.editTextConfirmPassword);
+
         btnSignUp = findViewById(R.id.btnSignUp);
-        textLogin = findViewById(R.id.textLogin);
 
         // Handle sign-up button click
         btnSignUp.setOnClickListener(v -> registerUser());
 
-        // Redirect to login screen if user already has an account
-        textLogin.setOnClickListener(v -> startActivity(new Intent(SignUpActivity.this, LoginActivity.class)));
     }
 
     private void registerUser() {
@@ -53,7 +49,6 @@ public class SignUpActivity extends AppCompatActivity {
         String phone = editTextPhone.getText().toString().trim();
         String email = editTextEmail.getText().toString().trim();
         String password = editTextPassword.getText().toString().trim();
-        String confirmPassword = editTextConfirmPassword.getText().toString().trim();
 
         if (TextUtils.isEmpty(name)) {
             editTextName.setError("Name is required");
@@ -71,10 +66,7 @@ public class SignUpActivity extends AppCompatActivity {
             editTextPassword.setError("Password is required");
             return;
         }
-        if (!password.equals(confirmPassword)) {
-            editTextConfirmPassword.setError("Passwords do not match");
-            return;
-        }
+
         if (password.length() < 6) {
             editTextPassword.setError("Password should be at least 6 characters");
             return;
