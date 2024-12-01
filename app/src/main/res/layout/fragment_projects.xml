@@ -3,21 +3,27 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@drawable/b"
     android:padding="16dp">
 
     <EditText
+        android:layout_margin="30dp"
         android:id="@+id/search_name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Search by Name" />
 
     <Spinner
+        android:layout_margin="20dp"
+
         android:id="@+id/spinner_location"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp" />
 
     <androidx.recyclerview.widget.RecyclerView
+        android:layout_margin="20dp"
+
         android:id="@+id/recycler_view_projects"
         android:layout_width="match_parent"
         android:layout_height="match_parent"

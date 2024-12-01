@@ -1,9 +1,12 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/b"
+
     android:orientation="vertical">
 
     <EditText
+        android:layout_margin="30dp"
         android:id="@+id/search_input"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -12,6 +15,8 @@
 
     <!-- RecyclerView for search results -->
     <androidx.recyclerview.widget.RecyclerView
+        android:layout_margin="20dp"
+
         android:id="@+id/recycler_view_team"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -19,6 +24,8 @@
 
     <!-- RecyclerView for incoming requests -->
     <TextView
+        android:layout_margin="20dp"
+
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Incoming Requests"
@@ -27,6 +34,8 @@
         android:textStyle="bold" />
 
     <androidx.recyclerview.widget.RecyclerView
+        android:layout_margin="20dp"
+
         android:id="@+id/recycler_view_requests"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -34,6 +43,8 @@
 
     <!-- RecyclerView for current team members -->
     <TextView
+        android:layout_margin="20dp"
+
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="My Team"
@@ -42,6 +53,8 @@
         android:textStyle="bold" />
 
     <androidx.recyclerview.widget.RecyclerView
+        android:layout_margin="20dp"
+
         android:id="@+id/recycler_view_my_team"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

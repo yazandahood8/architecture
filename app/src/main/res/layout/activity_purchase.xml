@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PurchaseActivity">
+
+    <RelativeLayout
+        android:id="@+id/purchaseLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/payment"
+        tools:layout_editor_absoluteX="-34dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <TextView
+            android:id="@+id/sub"
+            android:layout_width="230dp"
+            android:layout_height="65dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="93dp"
+            android:layout_marginBottom="76dp" />
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="106dp"
+            android:layout_height="66dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="279dp"
+            android:layout_marginBottom="367dp" />
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="106dp"
+            android:layout_height="66dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="158dp"
+            android:layout_marginBottom="368dp" />
+
+        <TextView
+            android:id="@+id/tv3"
+            android:layout_width="106dp"
+            android:layout_height="66dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="28dp"
+            android:layout_marginBottom="367dp" />
+
+        <EditText
+            android:id="@+id/card_number"
+            android:layout_width="316dp"
+            android:layout_height="62dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="45dp"
+            android:layout_marginBottom="251dp" />
+
+        <EditText
+            android:id="@+id/date"
+
+            android:layout_width="146dp"
+            android:layout_height="30dp"
+            android:textSize="10dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="226dp"
+            android:layout_marginBottom="179dp" />
+
+        <EditText
+            android:id="@+id/cvv"
+
+            android:layout_width="146dp"
+            android:layout_height="30dp"
+            android:textSize="10dp"
+
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="47dp"
+            android:layout_marginBottom="176dp" />
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
